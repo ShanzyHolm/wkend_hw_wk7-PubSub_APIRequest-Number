@@ -11,8 +11,10 @@ Request.prototype.get = function(onComplete) {
     };
 
     const responseText = xhr.responseText;
-    const data = JSON.parse(responseText);
+    // const data = JSON.parse(responseText);
+    const data = responseText;
     onComplete(data);
+    // console.log(data);
   });
 
   xhr.open("GET", this.url);

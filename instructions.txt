@@ -66,5 +66,5 @@ x -Add the configuration details to the config file
 x -Add a script to the package.json to run webpack in watch mode - "build": "webpack -w"
 x -Add a script tag to link to the bundled file in the HTML - <script type="text/javascript" src="js/bundle.js"></script>
 x -Run webpack - npm run build
-Check the log that shows the JavaScript has loaded is showing in the browser console.
+x -Check the log that shows the JavaScript has loaded is showing in the browser console.
 x -Add bundle.js to a .gitignore file

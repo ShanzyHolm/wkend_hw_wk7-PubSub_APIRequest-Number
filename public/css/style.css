@@ -1,0 +1,46 @@
+h1 {
+  font-family: 'Risque', cursive;
+  color: ghostwhite;
+  font-size: 40pt;
+  text-shadow: 1pt 1pt 2pt slateblue, 0 0 1em ghostwhite, 0 0 0.2em ghostwhite;
+}
+
+header {
+  width: 96%;
+  padding: 0 1em;
+  position: fixed;
+
+  background-color: darkslateblue;
+  border-bottom: 5pt yellowgreen;
+}
+
+body {
+  background-color: slateblue;
+}
+
+p {
+  border: 7pt;
+  border-style: dashed double;
+  padding: 1.2em;
+}
+
+#logo {
+
+}
+
+#number-container {
+  width: 75%;
+  height: 100vh;
+  /* does not render properly on the page without this heigh setting - but still not totally understanding what vh means? */
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#number-container p {
+  font-family: monospace;
+  font-size: 25pt;
+  color: ghostwhite;
+}
