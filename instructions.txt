@@ -59,12 +59,12 @@ Plan your models and your views and draw a diagram of the data flow through the 
 
 You will need to set-up webpack in your application:
 
-x-Initialise npm - npm init
-x-Install 'webpack' and 'webpack-cli' - npm install webpack webpack-cli
-x-Create a webpack config file - webpack.config.js
-x-Add the configuration details to the config file
-x-Add a script to the package.json to run webpack in watch mode - "build": "webpack -w"
+x -Initialise npm - npm init
+x -Install 'webpack' and 'webpack-cli' - npm install webpack webpack-cli
+x -Create a webpack config file - webpack.config.js
+x -Add the configuration details to the config file
+x -Add a script to the package.json to run webpack in watch mode - "build": "webpack -w"
 x -Add a script tag to link to the bundled file in the HTML - <script type="text/javascript" src="js/bundle.js"></script>
-Run webpack - npm run build
+x -Run webpack - npm run build
 Check the log that shows the JavaScript has loaded is showing in the browser console.
-x-Add bundle.js to a .gitignore file
+x -Add bundle.js to a .gitignore file
