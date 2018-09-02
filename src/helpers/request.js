@@ -12,6 +12,7 @@ Request.prototype.get = function(onComplete) {
 
     const responseText = xhr.responseText;
     // const data = JSON.parse(responseText);
+    // Does not need to be parsed as API is sending JSON format already
     const data = responseText;
     onComplete(data);
     // console.log(data);

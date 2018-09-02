@@ -1,3 +1,4 @@
+// MVP VERSION
 const PubSub = require('../helpers/pub_sub.js');
 
 const NumberView = function (container) {

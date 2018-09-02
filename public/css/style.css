@@ -31,7 +31,7 @@ p {
 #number-container {
   width: 75%;
   height: 100vh;
-  /* does not render properly on the page without this heigh setting - but still not totally understanding what vh means? */
+  /* does not render properly on the page without this height setting - but still not totally understanding what vh means? */
   margin: auto;
   text-align: center;
   display: flex;

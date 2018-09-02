@@ -26,8 +26,8 @@ These APIs all allow browser requests without authentification or keys. If you c
 
 
 MVP
-The application should display data from an API request.
-The application should have a clear separation of concerns using a model and views.
+x - The application should display data from an API request.
+x - The application should have a clear separation of concerns using a model and views.
 
 
 
